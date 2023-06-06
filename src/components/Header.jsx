@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header className="flex justify-between items-center py-6">
             <div className="logo">
-                <img src={orbitLogo} alt="ØRbit.Ui logo" className="w-16 h-16 object-cover rounded-full"/>
+                <img src={orbitLogo} alt="ØRbit.Ui logo" className="w-16 h-16 object-cover rounded-lg"/>
             </div>
             <nav className="flex-grow">
                 <ul className="flex justify-center space-x-6 text-lg">

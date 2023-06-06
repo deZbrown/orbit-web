@@ -8,12 +8,12 @@ const Hero = () => {
             <h1 className="text-7xl font-bold text-gray-800 mb-4">AI-Powered Line Parameter Analytics</h1>
             <p className="text-4xl font-work-sans mb-16">Unleash Better Customer Care with AI Simplified Line Insights</p>
             {/* Add the rest of the content here */}
-            <div className="flex flex-wrap justify-center space-x-5">
-                <Card image="random-icon1.png" alt="icon1" description="Babysitting of Telecommunication Line" />
-                <Card image="random-icon1.png" alt="icon1" description="Telecommunication Line Performance Score" />
-                <Card image="random-icon1.png" alt="icon1" description="Predictive Analytics for Telecommunication Line Health" />
-                <Card image="random-icon1.png" alt="icon1" description="Sophisticated Optical Network Analysis" />
-                <Card image="random-icon1.png" alt="icon1" description="Customer Service Diagnosis" />
+            <div className="flex flex-wrap justify-center space-x-5 mb-16">
+                <Card iconName="alarm" description="Babysitting of Telecommunication Line" />
+                <Card iconName="account-balance" description="Telecommunication Line Performance Score" />
+                <Card iconName="alarm" description="Predictive Analytics for Telecommunication Line Health" />
+                <Card iconName="add-to-queue" description="Sophisticated Optical Network Analysis" />
+                <Card iconName="all-inclusive" description="Customer Service Diagnosis" />
                 {/* Add more cards as needed */}
             </div>
 
