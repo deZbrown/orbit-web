@@ -10,6 +10,10 @@ const Hero = () => {
             {/* Add the rest of the content here */}
             <div className="flex flex-wrap justify-center space-x-5">
                 <Card image="random-icon1.png" alt="icon1" description="Babysitting of Telecommunication Line" />
+                <Card image="random-icon1.png" alt="icon1" description="Telecommunication Line Performance Score" />
+                <Card image="random-icon1.png" alt="icon1" description="Predictive Analytics for Telecommunication Line Health" />
+                <Card image="random-icon1.png" alt="icon1" description="Sophisticated Optical Network Analysis" />
+                <Card image="random-icon1.png" alt="icon1" description="Customer Service Diagnosis" />
                 {/* Add more cards as needed */}
             </div>
 

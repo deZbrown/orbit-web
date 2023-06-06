@@ -1,5 +1,5 @@
 import React from 'react';
-import orbitLogo from '../assets/orbit-logo.png'; // Make sure you move the image into src/assets
+import orbitLogo from '../assets/orbit-logo.png';
 
 const Header = () => {
     return (
@@ -8,7 +8,7 @@ const Header = () => {
                 <img src={orbitLogo} alt="ØRbit.Ui logo" className="w-16 h-16 object-cover rounded-full"/>
             </div>
             <nav className="flex-grow">
-                <ul className="flex justify-center space-x-4">
+                <ul className="flex justify-center space-x-6 text-lg">
                     <li>
                         <a href="#" className="text-gray-700 hover:text-blue-500">
                             Features
@@ -36,9 +36,9 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-                <a href="#" className="bg-blue-500 text-white rounded-md px-4 py-2"
-                    >Get started
-                </a>
+            <a href="#" className="bg-blue-500 text-white rounded-md px-2 h-14 flex items-center justify-center">
+                Get started
+            </a>
         </header>
     );
 }
