@@ -4,20 +4,20 @@ import ReactECharts from 'echarts-for-react';
 const LineSpeedRadarChart = () => {
     const getOption = () => {
         const data = [
-            [93, 96, 86, 60, 93], // Day 1
+            [62, 96, 72, 60, 30], // Day 1
             [93, 96, 86, 60, 93], // Day 2
             [93, 96, 86, 60, 93], // Day 3
-            [62, 96, 72, 60, 30], // Day 4
+            [93, 96, 86, 60, 93], // Day 4
             [93, 96, 86, 60, 93], // Day 5
             [93, 96, 86, 60, 93], // Day 6
             [93, 96, 86, 60, 93]  // Day 7
         ];
 
         const dayColors = [
-            { day: 'Day 1', color: 'rgb(59, 255, 0)' },
+            { day: 'Day 1', color: 'rgb(255, 226, 0)' },
             { day: 'Day 2', color: 'rgb(59, 255, 0)' },
             { day: 'Day 3', color: 'rgb(59, 255, 0)' },
-            { day: 'Day 4', color: 'rgb(255, 226, 0)' },
+            { day: 'Day 4', color: 'rgb(59, 255, 0)' },
             { day: 'Day 5', color: 'rgb(59, 255, 0)' },
             { day: 'Day 6', color: 'rgb(59, 255, 0)' },
             { day: 'Day 7', color: 'rgb(59, 255, 0)' },
@@ -30,13 +30,21 @@ const LineSpeedRadarChart = () => {
 
             legend: {
                 type: 'scroll',
-                bottom: 60,
+                bottom: 0,
                 data: dayColors.map(item => item.day),
             },
 
+            grid: {
+                top: '0%', // Add a top margin
+                left: '0%', // Increase left padding
+                right: '15%',
+                bottom: '0%',
+                containLabel: true
+            },
+
             visualMap: {
-                bottom: 160,  // Adjusts position from the bottom
-                right: 0,   // Adjusts position from the right
+                bottom: 60,  // Adjusts position from the bottom
+                right: 20,   // Adjusts position from the right
                 min: 0,
                 max: 100,
                 color: ['green', 'lime green', 'yellow', 'orange', 'red'],
@@ -44,32 +52,31 @@ const LineSpeedRadarChart = () => {
             },
 
             radar: {
-                nameGap: 8,
-                shape: 'circle',
+                axisNameGap: 20,
                 radius: '70%',
                 indicator: [
                     {
-                        text: 'Speed Stability',
+                        name: 'Speed Stability',
                         max: 100,
                         color: '#333',
                     },
                     {
-                        text: 'Max Speed',
+                        name: 'Max Speed',
                         max: 100,
                         color: '#333',
                     },
                     {
-                        text: 'Sound to Noise',
+                        name: 'Sound to Noise',
                         max: 100,
                         color: '#333',
                     },
                     {
-                        text: 'Attenuation',
+                        name: 'Attenuation',
                         max: 100,
                         color: '#333',
                     },
                     {
-                        text: 'Actual Speed',
+                        name: 'Actual Speed',
                         max: 100,
                         color: '#333',
                     }
@@ -103,7 +110,7 @@ const LineSpeedRadarChart = () => {
     };
 
     return (
-        <ReactECharts option={getOption()} style={{height: '640px', width: '512px'}}/>
+        <ReactECharts option={getOption()} style={{height: '400px', width: '512px'}}/>
     );
 }
 

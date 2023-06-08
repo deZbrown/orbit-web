@@ -54,13 +54,13 @@ const LinePerformanceBarChart = () => {
                     value: values[index],
                     itemStyle: {color: colors[label]}
                 })),
-                barWidth: 10, // set bar width to 10px
+                barWidth: 7, // set bar width to 10px
             }]
         };
     };
 
     return (
-        <ReactECharts option={getOption()} style={{height: '220px', width: '400px'}}/>
+        <ReactECharts option={getOption()} style={{height: '155px', width: '400px'}}/>
     );
 }
 

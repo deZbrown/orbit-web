@@ -31,6 +31,14 @@ const ErrorScatterChart = () => {
         ];
 
         return {
+            grid: {
+                top: '10%', // Add a top margin
+                left: '0%', // Increase left padding
+                right: '0%',
+                bottom: '5%',
+                containLabel: true
+            },
+
             tooltip: {
                 trigger: 'axis',
                 axisPointer: {
@@ -72,7 +80,7 @@ const ErrorScatterChart = () => {
                     type: 'scatter',
                     data: data,
                     symbolSize: function (data) {
-                        return Math.sqrt(data[1]) * 3; // adjust size of scatter points
+                        return Math.sqrt(data[1]) * 2; // adjust size of scatter points
                     },
                     emphasis: {
                         label: {
@@ -87,7 +95,7 @@ const ErrorScatterChart = () => {
         };
     };
 
-    return <ReactECharts option={getOption()} style={{ height: '320px', width: '512px' }} />;
+    return <ReactECharts option={getOption()} style={{ height: '160px', width: '512px' }} />;
 };
 
 export default ErrorScatterChart;
