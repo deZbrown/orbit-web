@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import CTA from './CTA';
+import LinePerformanceBarChart from '../Dashboard/LinePerformanceBarChart';
 
 const Hero = () => {
     return (
@@ -18,6 +19,8 @@ const Hero = () => {
             </div>
 
             <CTA />
+
+            {/*<LinePerformanceBarChart />+*/}
         </section>
     );
 }
