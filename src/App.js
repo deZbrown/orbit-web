@@ -1,17 +1,24 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Main from './components/Main';
+import Playground from './components/Playground/Playground';
 import Footer from './components/Footer';
 import './App.css';
 
 function App() {
-  return (
-      <div className="App max-w-screen-xl mx-auto px-4">
-        <Header />
-        <Main />
-        <Footer />
-      </div>
-  );
+    return (
+        <Router>
+            <div className="App max-w-screen-xl mx-auto px-4">
+                <Header />
+                <Routes>
+                    <Route path="/playground" element={<Playground />} />
+                    <Route path="/" element={<Main />} />
+                </Routes>
+                <Footer />
+            </div>
+        </Router>
+    );
 }
 
 export default App;
