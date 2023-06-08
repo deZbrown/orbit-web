@@ -17,24 +17,13 @@ const LinePerformanceBarChart = () => {
         const values = [70, 61, 75, 54, 41];
 
         return {
-            title: {
-                text: 'Performance Score',
-                left: 'center',
-                top: '0',
-                padding: [25, 0, 0, 0],  // reduce padding at the top
-                textStyle: {
-                    fontFamily: 'Roboto',
-                    fontSize: 20,
-                    fontStyle: 'italic',
-                    fontWeight: 'lighter',
-                }
-            },
             tooltip: {
                 formatter: function(params) {
                     return params.name + ': ' + params.value + '%';
                 }
             },
             grid: {
+                top: '5%', // Add a top margin
                 left: '5%', // Increase left padding
                 right: '10%',
                 bottom: '3%',
@@ -71,7 +60,7 @@ const LinePerformanceBarChart = () => {
     };
 
     return (
-        <ReactECharts option={getOption()} style={{height: '300px', width: '400px'}}/>
+        <ReactECharts option={getOption()} style={{height: '220px', width: '400px'}}/>
     );
 }
 

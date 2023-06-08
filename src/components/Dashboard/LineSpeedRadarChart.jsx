@@ -24,19 +24,6 @@ const LineSpeedRadarChart = () => {
         ];
 
         return {
-            title: {
-                text: 'Speed Performance',
-                left: 'center',
-                top: 20,
-                padding: [25, 0, 0, 0],  // reduce padding at the top
-                textStyle: {
-                    fontFamily: 'Roboto',
-                    fontSize: 32,
-                    fontStyle: 'italic',
-                    fontWeight: 'lighter',
-                }
-            },
-
             tooltip: {
                 trigger: 'item'
             },

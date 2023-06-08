@@ -31,18 +31,6 @@ const ErrorScatterChart = () => {
         ];
 
         return {
-            title: {
-                text: 'Error Seconds Count',
-                left: 'center',
-                top: 3,
-                textStyle: {
-                    fontFamily: 'Roboto',
-                    fontSize: 32,
-                    fontStyle: 'italic',
-                    fontWeight: 'lighter',
-                },
-            },
-
             tooltip: {
                 trigger: 'axis',
                 axisPointer: {
