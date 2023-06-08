@@ -2,6 +2,8 @@ import React from 'react';
 import Card from './Card';
 import CTA from './CTA';
 import LinePerformanceBarChart from '../Dashboard/LinePerformanceBarChart';
+import LineSpeedRadarChart from '../Dashboard/LineSpeedRadarChart';
+import ErrorCountScatterPlotChart from "../Dashboard/ErrorCountScatterPlotChart";
 
 const Hero = () => {
     return (
@@ -21,6 +23,8 @@ const Hero = () => {
             <CTA />
 
             {/*<LinePerformanceBarChart />+*/}
+            {/*<LineSpeedRadarChart/>*/}
+            <ErrorCountScatterPlotChart />
         </section>
     );
 }
