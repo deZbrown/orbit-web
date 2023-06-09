@@ -2,6 +2,8 @@ import React from 'react';
 import Card from './Card';
 import CTA from './CTA';
 import DiagnosisAndPredictiveCapabilities from './SVP/DiagnosisAndPredictiveCapabilities';
+import ReducedOperatingCosts from "./SVP/ReducedOperatingCosts";
+import ImprovedServiceAgentEfficiency from "./SVP/ImprovedServiceAgentEfficiency";
 
 const Hero = () => {
     return (
@@ -21,6 +23,10 @@ const Hero = () => {
             <CTA />
 
             <DiagnosisAndPredictiveCapabilities />
+
+            <ReducedOperatingCosts />
+
+            <ImprovedServiceAgentEfficiency />
 
         </section>
     );
