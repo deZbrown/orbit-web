@@ -4,6 +4,7 @@ import CTA from './CTA';
 import DiagnosisAndPredictiveCapabilities from './SVP/DiagnosisAndPredictiveCapabilities';
 import ReducedOperatingCosts from "./SVP/ReducedOperatingCosts";
 import ImprovedServiceAgentEfficiency from "./SVP/ImprovedServiceAgentEfficiency";
+import ScalableAndAdaptableSolution from "./SVP/ScalableAndAdaptableSolution";
 
 const Hero = () => {
     return (
@@ -27,6 +28,8 @@ const Hero = () => {
             <ReducedOperatingCosts />
 
             <ImprovedServiceAgentEfficiency />
+
+            <ScalableAndAdaptableSolution />
 
         </section>
     );
