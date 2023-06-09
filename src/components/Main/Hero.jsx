@@ -5,6 +5,7 @@ import DiagnosisAndPredictiveCapabilities from './SVP/DiagnosisAndPredictiveCapa
 import ReducedOperatingCosts from "./SVP/ReducedOperatingCosts";
 import ImprovedServiceAgentEfficiency from "./SVP/ImprovedServiceAgentEfficiency";
 import ScalableAndAdaptableSolution from "./SVP/ScalableAndAdaptableSolution";
+import DataDrivenDecisionMaking from "./SVP/DataDrivenDecisionMaking";
 
 const Hero = () => {
     return (
@@ -30,6 +31,8 @@ const Hero = () => {
             <ImprovedServiceAgentEfficiency />
 
             <ScalableAndAdaptableSolution />
+
+            <DataDrivenDecisionMaking />
 
         </section>
     );
