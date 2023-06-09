@@ -17,7 +17,7 @@ const FeatureSection = () => {
                 </h2>
 
                 <p className="font-thin font-work-sans text-2xl text-gray-700 leading-relaxed text-justify mt-4 italic">
-                    Our SaaS API blends with your existing systems like a chameleon. With our easy integration capabilities,
+                    Our API blends with your existing systems like a chameleon. With our easy integration capabilities,
                     we ensure a seamless addition to your tech stack, enhancing your operations without disrupting them.
                 </p>
 

@@ -10,7 +10,7 @@ const FeatureSection = () => {
                 </h2>
 
                 <p className="font-thin font-work-sans text-2xl text-gray-700 leading-relaxed text-justify mt-4 italic">
-                    Transform raw data into powerful strategies. Our SaaS API offers actionable insights that allow you
+                    Transform raw data into powerful strategies. Our API offers actionable insights that allow you
                     to optimize your VDSL lines' performance, allocate resources effectively, and unearth patterns for
                     strategic planning.
                 </p>

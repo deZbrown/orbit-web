@@ -10,7 +10,7 @@ const FeatureSection = () => {
                 </h2>
 
                 <p className="font-thin font-work-sans text-2xl text-gray-700 leading-relaxed text-justify mt-4 italic">
-                    Empower your service agents from day one. Our SaaS API's intuitive design and user-friendly
+                    Empower your service agents from day one. Our API's intuitive design and user-friendly
                     interface reduce training time, enabling your team to hit the ground running.
                 </p>
 
