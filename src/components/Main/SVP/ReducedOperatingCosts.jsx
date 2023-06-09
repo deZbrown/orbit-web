@@ -1,4 +1,5 @@
 import React from 'react';
+import costs from '../../../assets/expenses.png';
 
 const FeatureSection = () => {
     return (
@@ -19,7 +20,7 @@ const FeatureSection = () => {
 
             <div className="w-full md:w-1/2 flex justify-center px-24">
 
-                <img src='https://fakeimg.pl/320x480/4c5270/F652A0' alt="Visual" className="rounded-lg" />
+                <img src={costs} alt="Visual" className="rounded-lg" />
 
             </div>
 
