@@ -5,7 +5,6 @@ const Main = () => {
     return (
         <main>
             <Hero />
-            {/* Add other sections here */}
         </main>
     );
 }
