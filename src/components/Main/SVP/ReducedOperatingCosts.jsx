@@ -1,5 +1,5 @@
 import React from 'react';
-import costs from '../../../assets/expenses.png';
+import costs from '../../../assets/costs.png';
 
 const FeatureSection = () => {
     return (
