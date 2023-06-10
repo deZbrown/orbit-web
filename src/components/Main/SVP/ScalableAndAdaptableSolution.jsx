@@ -6,9 +6,9 @@ const FeatureSection = () => {
         <div className="flex flex-col md:flex-row max-w-7xl mx-auto justify-around my-16 px-4 md:px-12 items-center">
 
             <div className="order-last md:order-first w-full md:w-1/2 flex justify-center md:max-w-none">
-
-                <img src={scale} alt="Visual" className="rounded-lg" />
-
+                <div className="mx-auto">
+                    <img src={scale} alt="Visual" className="rounded-lg" />
+                </div>
             </div>
 
             <div className="order-first md:order-last w-full md:w-1/2 flex flex-col justify-center items-start px-3 md:px-12 mb-12 md:mb-0">

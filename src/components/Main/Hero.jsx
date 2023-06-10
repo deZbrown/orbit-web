@@ -25,17 +25,21 @@ const Hero = () => {
 
             <CTA />
 
-            {/*<DataDrivenDecisionMaking />*/}
+            <DataDrivenDecisionMaking />
 
             <DiagnosisAndPredictiveCapabilities />
 
             <ReducedOperatingCosts />
 
+            <CTA />
+
             <ContinuousInnovation />
 
-            {/*<ImprovedServiceAgentEfficiency />*/}
+            <ImprovedServiceAgentEfficiency />
 
             <ScalableAndAdaptableSolution />
+
+            <CTA />
 
         </section>
     );

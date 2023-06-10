@@ -7,7 +7,9 @@ const FeatureSection = () => {
 
             <div className="order-last md:order-first w-full md:w-1/2 flex justify-center md:max-w-none">
 
-                <img src={ai} alt="Visual" className="rounded-lg" />
+                <div className="mx-auto">
+                    <img src={ai} alt="Visual" className="rounded-lg" />
+                </div>
 
             </div>
 
