@@ -8,7 +8,7 @@ const FeatureSection = () => {
             <div className="w-full md:w-1/2 flex flex-col justify-center items-start px-3 md:px-12 mb-12 md:mb-0">
 
                 <h2 className="mb-4 text-5xl md:text-6xl font-work-sans tracking-tight text-gray-900 dark:text-white text-left">
-                    Improved Service Agent Efficiency
+                    Boosting Service Agent Productivity
                 </h2>
 
                 <p className="font-thin font-work-sans text-2xl text-gray-700 leading-relaxed text-justify mt-4 italic">

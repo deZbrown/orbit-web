@@ -16,11 +16,11 @@ const FeatureSection = () => {
             <div className="order-first md:order-last w-full md:w-1/2 flex flex-col justify-center items-start px-3 md:px-12 mb-12 md:mb-0">
 
                 <h2 className="mb-4 text-5xl md:text-6xl font-work-sans tracking-tight text-gray-900 dark:text-white text-left">
-                    Advanced Diagnosis and Predictive Capabilities
+                    Next-Level Diagnostic Precision
                 </h2>
 
                 <p className="font-thin font-work-sans text-2xl text-gray-700 leading-relaxed text-justify mt-4 italic">
-                    Experience the future of line health analysis with our real-time diagnosis and predictive capabilities.
+                    Experience the future of line performance analysis with our real-time diagnosis and predictive capabilities.
                 </p>
 
                 <p className="font-thin font-work-sans text-2xl text-gray-700 leading-relaxed text-justify mt-4 italic">

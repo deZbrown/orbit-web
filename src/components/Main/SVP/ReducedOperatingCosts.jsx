@@ -12,7 +12,7 @@ const FeatureSection = () => {
                 </h2>
 
                 <p className="font-thin font-work-sans text-2xl text-gray-700 leading-relaxed text-justify mt-4 italic">
-                    Experience true financial freedom and only pay for what you use.
+                    Effortlessly cut costs and boost your bottom line
                 </p>
 
                 <p className="font-thin font-work-sans text-2xl text-gray-700 leading-relaxed text-justify mt-4 italic">

@@ -14,7 +14,7 @@ const FeatureSection = () => {
             <div className="order-first md:order-last w-full md:w-1/2 flex flex-col justify-center items-start px-3 md:px-12 mb-12 md:mb-0">
 
                 <h2 className="mb-4 text-5xl md:text-6xl font-work-sans tracking-tight text-gray-900 dark:text-white text-left">
-                    Scalable and Adaptable Solution
+                    Scalable and Agile Solution
                 </h2>
 
                 <p className="font-thin font-work-sans text-2xl text-gray-700 leading-relaxed text-justify mt-4 italic">
@@ -22,8 +22,7 @@ const FeatureSection = () => {
                 </p>
 
                 <p className="font-thin font-work-sans text-2xl text-gray-700 leading-relaxed text-justify mt-4 italic">
-                    With our easy integration capabilities, we ensure a seamless addition to your tech stack,
-                    enhancing your operations without disrupting them.
+                    With our easy integration capabilities, we enhance your operations without disrupting them.
                 </p>
 
             </div>
