@@ -27,15 +27,15 @@ const Hero = () => {
 
             {/*<DataDrivenDecisionMaking />*/}
 
-            {/*<DiagnosisAndPredictiveCapabilities />*/}
+            <DiagnosisAndPredictiveCapabilities />
 
             <ReducedOperatingCosts />
 
-            {/*<ContinuousInnovation />*/}
+            <ContinuousInnovation />
 
             {/*<ImprovedServiceAgentEfficiency />*/}
 
-            {/*<ScalableAndAdaptableSolution />*/}
+            <ScalableAndAdaptableSolution />
 
         </section>
     );
