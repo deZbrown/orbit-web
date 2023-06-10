@@ -10,7 +10,7 @@ function App() {
     return (
         <Router>
             <div className="App max-w-screen-xl mx-auto px-4">
-                <Header />
+                {/*<Header />*/}
                 <Routes>
                     <Route path="/playground" element={<Playground />} />
                     <Route path="/" element={<Main />} />
