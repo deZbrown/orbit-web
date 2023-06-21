@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
     return (
-        <Router>
+        <Router basename="/orbit-web">
             <div className="App max-w-screen-xl mx-auto px-4">
                 {/*<Header />*/}
                 <Routes>
