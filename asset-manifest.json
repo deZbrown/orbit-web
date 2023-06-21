@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/orbit-web/static/css/main.182e079a.css",
+    "main.js": "/orbit-web/static/js/main.7b8c239c.js",
+    "static/js/787.6af6cf7b.chunk.js": "/orbit-web/static/js/787.6af6cf7b.chunk.js",
+    "static/media/costs.png": "/orbit-web/static/media/costs.e3911b2ce03bc71ca478.png",
+    "static/media/efficiency.png": "/orbit-web/static/media/efficiency.d75c5633b875630b9bff.png",
+    "static/media/scale.png": "/orbit-web/static/media/scale.062853a0b3739fd4897a.png",
+    "static/media/data-driven.png": "/orbit-web/static/media/data-driven.5d90acc06e7fa5f1aaf9.png",
+    "static/media/ai-helper.png": "/orbit-web/static/media/ai-helper.8967a476a9c7fcaf62db.png",
+    "static/media/continuous-innovation.png": "/orbit-web/static/media/continuous-innovation.760b5cbadbe6e89ea258.png",
+    "index.html": "/orbit-web/index.html",
+    "main.182e079a.css.map": "/orbit-web/static/css/main.182e079a.css.map",
+    "main.7b8c239c.js.map": "/orbit-web/static/js/main.7b8c239c.js.map",
+    "787.6af6cf7b.chunk.js.map": "/orbit-web/static/js/787.6af6cf7b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.182e079a.css",
+    "static/js/main.7b8c239c.js"
+  ]
+}
