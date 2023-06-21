@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orbit-web/static/css/main.182e079a.css",
-    "main.js": "/orbit-web/static/js/main.58633802.js",
+    "main.js": "/orbit-web/static/js/main.3e0e8fcd.js",
     "static/js/787.6af6cf7b.chunk.js": "/orbit-web/static/js/787.6af6cf7b.chunk.js",
     "static/media/costs.png": "/orbit-web/static/media/costs.e3911b2ce03bc71ca478.png",
     "static/media/efficiency.png": "/orbit-web/static/media/efficiency.d75c5633b875630b9bff.png",
@@ -11,11 +11,11 @@
     "static/media/continuous-innovation.png": "/orbit-web/static/media/continuous-innovation.760b5cbadbe6e89ea258.png",
     "index.html": "/orbit-web/index.html",
     "main.182e079a.css.map": "/orbit-web/static/css/main.182e079a.css.map",
-    "main.58633802.js.map": "/orbit-web/static/js/main.58633802.js.map",
+    "main.3e0e8fcd.js.map": "/orbit-web/static/js/main.3e0e8fcd.js.map",
     "787.6af6cf7b.chunk.js.map": "/orbit-web/static/js/787.6af6cf7b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.182e079a.css",
-    "static/js/main.58633802.js"
+    "static/js/main.3e0e8fcd.js"
   ]
 }
