@@ -13,7 +13,7 @@ const Hero = () => {
         <section className="hero text-center py-16">
 
             <h1 className="text-5xl md:text-7xl font-bold text-gray-800 mb-8">AI-Powered Line Parameter Analytics</h1>
-            <p className="text-4xl font-work-sans mb-16 mt-12">Unleash Better Customer Care with AI Simplified Line Insights</p>
+            <p className="text-4xl font-work-sans mb-16 mt-12">Unleash better customer care with AI simplified line insights</p>
 
             {/*<div className="flex flex-wrap justify-center space-x-5 mb-16">*/}
             {/*    <Card iconName="alarm" description="Babysitting of Telecommunication Line" />*/}
@@ -38,8 +38,6 @@ const Hero = () => {
             <ImprovedServiceAgentEfficiency />
 
             <ScalableAndAdaptableSolution />
-
-            <CTA />
 
         </section>
     );
